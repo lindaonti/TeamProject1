@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Khanna — Our Company History</title>
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      line-height: 1.6; 
+      margin: 24px; 
+      color: #222; 
+    }
+    header { margin-bottom: 18px; }
+    h1 { margin: 0 0 8px 0; font-size: 2rem; color: #b22222; font-family: Georgia, serif; }
+    .meta { color: #666; font-size: 0.95rem; margin-bottom: 12px; }
+    p { margin: 12px 0; }
+    a { color: #0066cc; text-decoration: none; font-style: italic; }
+    a:hover { text-decoration: underline; }
+    footer { margin-top: 20px; font-size: 0.9rem; color: #666; }
+    .highlight { color: green; font-weight: bold; font-size: 1.1rem; }
+    .special { font-family: "Courier New", monospace; font-size: 1rem; color: darkblue; }
+    img { max-width: 300px; border-radius: 12px; margin: 12px 0; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><u>Khanna — Our Company History</u></h1>
+    <div class="meta">Learn about our story, values, and growth</div>
+  </header>
+  <section>
+    <p><strong>Khanna</strong> is a family-owned restaurant dedicated to bringing authentic and flavorful cuisine to our community. 
+    Our goal is to provide delicious meals, a welcoming atmosphere, and an experience that combines culture, tradition, and quality.</p>
+    <p>Founded in <span class="highlight">2001</span>, Khanna began as a small local eatery with a focus on fresh ingredients and 
+    traditional recipes passed down through generations. Over the years, our restaurant has become a beloved destination 
+    for food lovers, celebrated for our <u>homemade dishes</u> and exceptional customer service.</p>
+    <p>In <span class="special">2022</span>, Khanna expanded under new ownership and management. While we grew and modernized, 
+    we remained committed to our roots, keeping our signature menu items and maintaining a warm, family-friendly environment.</p>
+    <p>Our philosophy is simple: <em>serve fresh, authentic food and make every guest feel at home</em>. Every dish is prepared 
+    with care, from scratch-made sauces to carefully selected ingredients, ensuring a high-quality dining experience.</p>
+    <!-- Example Image -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Indian_Food_Platter.jpg" 
+         alt="Authentic dishes at Khanna" />
+    <!-- Ordered List -->
+    <h2>Customer Favorites</h2>
+    <ol>
+      <li>Butter Chicken</li>
+      <li>Paneer Tikka</li>
+      <li>Biryani</li>
+    </ol>
+    <!-- Unordered List -->
+    <h2>What We Value</h2>
+    <ul>
+      <li>Fresh, high-quality ingredients</li>
+      <li>Welcoming and friendly atmosphere</li>
+      <li>Community involvement</li>
+    </ul>
+    <!-- Hyperlinks -->
+    <p>Learn more about Indian cuisine at 
+      <a href="https://www.culturalindia.net/indian-food.html" target="_blank">Cultural India</a>.
+    </p>
+    <p>Visit our <a href="https://www.khanna.com/" target="_blank">official Khanna website</a> to see our full menu.</p>
+    <!-- Contact Link -->
+    <p><a href="mailto:contact@khanna.com">Contact Me</a></p>
+    <!-- Downloadable File -->
+    <p><a href="menu.pdf" download>Download Our Menu (PDF)</a></p>
+  </section>
+  <footer>
+    <p id="lastModified"></p>
+  </footer>
+  <script>
+    // Display last modified date automatically
+    document.getElementById("lastModified").textContent = 
+      "Date Last Modified: " + document.lastModified;
+  </script>
+</body>
+</html>
